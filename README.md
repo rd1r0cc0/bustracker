@@ -5,13 +5,17 @@
 
 ## Track in Real-Time Buses from the Route Between MIT and Harvard
 
-This coding project consists of 3 files--HTML, JavaScript and Cascading Style Sheet--to create a pair of eyes that dynamically follow the mouse pointer all around the web page. In this coding project the JavaScript and Style Sheet are separate from the html file, which allows for reusability of the JavaScript code and Style Sheet.
+This coding project putls data from MBTA.com in JSON format on transit buses along the route between MIT and Harvard, and it takes advantage of async functions to make asynchronous requests to other websites.
+
+It also takes advantage of Google Maps API to generate a map of the Boston area and to add/manipulate markers on the map.  A Google Maps JavaScript API Key is required and can be obtained by signing up for an account at mapsplatform.google.com.  There potentially could be costs associated with this key, depending on the number of API calls generated.
+
+It will track buses along a specific route between MIT and Harvard.  Buses moving in one direction along the route will have blue markers on the map and buses traveling in the opposite direction will have red markers.  It will pull data from MBTA.com every 15 seconds to update the bus markers' positions on the map.
 
 ## Roadmap of Future Improvements
 
-Add different colored eyes
-Add a third eye
-Add other facial features like a tongue or nose that moves with the mouse pointer
+- Refactor the code to use Mapbox GL JS APIs instead of Google Maps JavaScript APIs to avoid any potential costs.
+- Add pop-up boxes to each marker to provide more detailed information on each bus.
+- Add menu options for different cities and/or different transit bus routes.
 
 ## LICENSE
 
