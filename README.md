@@ -7,12 +7,13 @@
 
 This coding project consists of 3 files--HTML, JavaScript and Cascading Style Sheet--to create a pair of eyes that dynamically follow the mouse pointer all around the web page. In this coding project the JavaScript and Style Sheet are separate from the html file, which allows for reusability of the JavaScript code and Style Sheet.
 
-Roadmap of Future Improvements
+## Roadmap of Future Improvements
 
 Add different colored eyes
 Add a third eye
 Add other facial features like a tongue or nose that moves with the mouse pointer
-LICENSE
+
+## LICENSE
 
 Copyright (c) 2020
 
